@@ -1,0 +1,15 @@
+* {
+  margin: 2rem;
+}
+
+.txt {
+  font-size: large;
+  color: red;
+}
+
+div {
+  width: 400px;
+  height: 400px;
+  background-color: burlywood;
+  transform: translate(60px, 100px);
+}
