@@ -1,0 +1,14 @@
+.rect {
+  margin: 2rem;
+  height: 20rem;
+  width: 40rem;
+  background-color: aqua;
+  border: 5px dashed blue;
+}
+
+img {
+  margin: 2rem;
+  filter: grayscale(100%);
+  width: 25rem;
+  height: 15rem;
+}
