@@ -1,0 +1,22 @@
+* {
+  font-size: 100px;
+}
+.maintop {
+  display: flex;
+}
+
+.eq {
+  margin: 0.5rem 1rem;
+}
+
+.mainbottom {
+  display: flex;
+}
+
+.bottom {
+  margin-top: -1rem;
+  margin-right: 3.7rem;
+}
+.bottom1 {
+  margin-top: -1.2rem;
+}
