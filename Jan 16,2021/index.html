@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+
+<body>
+    <main id="calculator">
+        <section id="display">
+            <input type="text" id="history" value="" disabled >
+            <output name="result" id="result" for="history" >0</output>
+        </section>
+        <section id="keypad">
+            <button id="button" data-all-clear>AC</button>
+            <button id="button" data-backspace>C</button>
+            <button id="button" data-percent>%</button>
+            <button id="button" data-operator="/" class="operator">&divide;</button>
+           
+            <button id="button" data-number="7">7</button>
+            <button id="button" data-number="8">8</button>
+            <button id="button" data-number="9">9</button>
+            <button id="button" data-operator="*" class="operator">&times;</button>
+           
+            <button id="button" data-number="4">4</button>
+            <button id="button" data-number="5">5</button>
+            <button id="button" data-number="6">6</button>
+            <button id="button" data-operator="-" class="operator">&minus;</button>
+           
+            <button id="button" data-number="1">1</button>
+            <button id="button" data-number="2">2</button>
+            <button id="button" data-number="3">3</button>
+            <button id="button" data-operator="+" class="operator">&plus;</button>
+           
+            <button id="button" data-negation>&plus;/&minus;</button>
+            <button id="button" data-number="0">0</button>
+            <button id="button" data-decimal=".">&sdot;</button>
+            <button id="button" data-equals="=" class="operator">&equals;</button>
+        </section>
+    </main>
+  
+     
+</body>
+
+</html>
