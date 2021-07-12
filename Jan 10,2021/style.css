@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(224, 231, 238);
+  padding: 1rem;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+main .list {
+  width: 100%;
+  max-width: 768px;
+  border: 1px solid beige;
+  margin-top: 2rem;
+}
+
+main .list .item {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+main .list .item:last-of-type {
+  border-bottom: none;
+}
+
+main .list .item:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.pagenum {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.pagenum button {
+  width: 50px;
+  height: 50px;
+  /* appearance: none; */
+  border: none;
+  background-color: white;
+  margin: 1rem 0.03rem;
+  cursor: pointer;
+  transition: 0.4s;
+
+  color: rgb(82, 82, 248);
+  font-size: 1rem;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.pagenum button:hover {
+  background-color: #44aaee;
+}
+
+.pagenum button.active {
+  background-color: #dad8d8;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
